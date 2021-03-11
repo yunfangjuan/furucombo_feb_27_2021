@@ -16,8 +16,8 @@ a data platform like etherscan.
 In `furucombo.js`, we took the following steps to identity the potential loss. We base most of the calculations between block 11618386 
 and block 11940503. The former represents the Furucombo contract creation time and the latter represents the last block before the attack. 
 
- 1. Get the list of wallets that have ever interacted with Furucombo between the blocks. (This doesn't include wallets that might have approaved tokens but never transacted. (so this is an underestimate.)
- 2. Get the token approval limits of furocombothe wallets from step 1 and also the token balance for the wallet at the lasst block before the attack 
+ 1. Get the list of wallets that have ever interacted with Furucombo between block 11618386 and 11940503. (This doesn't include wallets that might have approaved tokens but never transacted. (so this is an underestimate.)
+ 2. Get the token approval limits of  wallets from step 1 and also the token balance for the wallet at the block right before the attack 
  3. Go through 2 and get the list of tokens that could have been stolen. Check the current price of the tokens through Coin Gecko 
  4. Go through 2 again and generate a file that includes both token loss and loss in USDC
 
