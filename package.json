@@ -1,0 +1,27 @@
+{
+  "name": "perp-contract-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm furucombo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@perp/contract": "1.0.4",
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^0.21.1",
+    "cross-fetch": "3.0.5",
+    "dotenv": "8.2.0",
+    "erc20-contract-js": "^1.3.1",
+    "esm": "^3.2.25",
+    "ethers": "5.0.9",
+    "etherscan-api": "^10.0.5",
+    "express": "^4.17.1",
+    "line-reader": "^0.4.0",
+    "web3": "^1.3.4"
+  }
+}
