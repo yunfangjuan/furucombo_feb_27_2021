@@ -1,5 +1,4 @@
-# furucombo_feb_27_2021
-Potential Loss Analysis for Furucombo
+# Potential Loss Analysis for Furucombo 2/27/2021
 
 # Overview
 
@@ -24,8 +23,7 @@ and block 11940503. The former represents the Furucombo contract creation time a
 
 # Results
  You can reproduce the results by running `npm start` after pluggining your `ETHERSCAN_API_KEY`. The final loss reports will be in `wallet_loss.txt`. 
- You can also view the loss in this google sheet which is just `wallet_loss.txt` uploaded and sorted. The potential loss is more than $30M compared to 
- the actual loss of $15.3M. 
+ You can also view the potential loss in this [google sheet](https://docs.google.com/spreadsheets/d/1LVNk2FN7RJcETChBVtjQE3niIAidWfyAbcQtnHgFpsU/edit#gid=246947807) which is just `wallet_loss.txt` uploaded and sorted. The potential loss is more than $30M compared to the [actual loss of $15.3M](https://docs.google.com/spreadsheets/d/1LVNk2FN7RJcETChBVtjQE3niIAidWfyAbcQtnHgFpsU/edit#gid=2074661653). 
 
 # Further Improvement
  What's a good api call to get the complete list of token approvals at a specific block for a contract without providing a wallet address? That would have been a  more accurate estimate than what we do here. 
